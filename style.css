@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0px 50px 0px 50px;
+    padding: 0;
+}
+
+body {
+    background-color: #3f3f3f;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: justify;
+    color: #F6F4F3;
+}
+
+.image {
+    text-align: center;
+    background-color: #F6F4F3;
+}
+
+.anchor {
+    text-align: center;
+    word-spacing: 120px;
+}
+
+.anchor a {
+    color: #3f3f3f;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+header {
+    background-color: #E5E5E5;
+    color: #3f3f3f;
+    border: darkslategray solid 5px;
+}
+
+nav {
+    background-color: darkslategray;
+    float: left;
+    line-height: 35px;
+    width : 20%;
+    height: 83%;
+}
+
+nav li {
+    list-style-type: none;
+    font: bold;
+}
+nav a {
+    color: #E5E5E5;
+}
+
+article {
+    float: right;
+    width : 80%;
+}
+.clear{
+    clear: both;
+    height: 50px;
+}
+a:hover{
+    background-color: darkseagreen;
+    color: darkslategray;
+    font-size: 110%;
+}
+a:active {
+    background-color: #F6F4F3;
+    color: darkslategray;
+  }
