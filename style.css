@@ -73,3 +73,11 @@ a:active {
     background-color: #F6F4F3;
     color: darkslategray;
   }
+  table, tr, th, td
+{
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+    background-color: darkslategray;
+    color: #ffffff;
+}
