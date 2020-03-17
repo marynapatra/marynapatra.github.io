@@ -1,83 +1,169 @@
-html, body {
-    height: 100%;
-    margin: 0px 50px 0px 50px;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #3f3f3f;
-    font-family: Arial;
-    font-size: 16px;
-    text-align: justify;
-    color: #F6F4F3;
-}
-
-.image {
     text-align: center;
-    background-color: #F6F4F3;
-}
-
-.image1 {
-    text-align: center;
-}
-
-.anchor {
-    text-align: center;
-    word-spacing: 120px;
-}
-
-.anchor a {
-    color: #3f3f3f;
-}
-
-h2, h3{
-    text-align: center;
+    height: 100%;
 }
 
 header {
-    background-color: #E5E5E5;
-    color: #3f3f3f;
-    border: darkslategray solid 5px;
-}
-
-nav {
-    background-color: darkslategray;
-    float: left;
-    line-height: 35px;
-    width : 20%;
-    height: 83%;
-}
-
-nav li {
-    list-style-type: none;
-    font: bold;
-}
-nav a {
-    color: #E5E5E5;
-}
-
-article {
-    float: right;
-    width : 80%;
-}
-.clear{
-    clear: both;
     height: 50px;
+    background-size: 100%;
+    opacity: 0.6;
+    font-size: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(#4f3222, #e0e2e4, #4f3222);
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 120px;
+    position: sticky;
+    top: 0px;
 }
-a:hover{
-    background-color: darkseagreen;
-    color: darkslategray;
-    font-size: 110%;
+
+h1 {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+    color: #8d9db6;
+    text-shadow: 4px 4px black;
 }
-a:active {
-    background-color: #F6F4F3;
-    color: darkslategray;
-  }
-  table, tr, th, td
-{
-    border-collapse: collapse;
-    border: 3px solid black;
-    text-align: center;
-    background-color: darkslategray;
-    color: #ffffff;
+
+header a {
+    color: black;
+}
+
+aside {
+    width: 20%;
+    background-color: #b7d7e8;
+    float: left;
+}
+
+.general {
+    height: 900px;
+    background-image: url(Hobby.jpg);
+    background-size: cover;
+}
+
+.general p {
+    background-color: #e6c18d;
+    color: #4f3222;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.general img {
+    margin-top: 30px;
+    height: 300px;
+}
+
+.travelling {
+    height: 950px;
+    background-image: url(Travelling.jpg);
+    background-size: cover;
+    width: 80%;
+    float: right;
+}
+
+.travelling p {
+    background-color: #DFE3EE;
+    color: #3B5998;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+    margin-top: 50px;
+    height: 400px;
+    border: #3B5998 solid 3px;
+}
+
+.rock {
+    height: 950px;
+    background-image: url(Rock.jpg);
+    background-size: cover;
+}
+
+.rock p {
+    background-color: #e9dbd5;
+    color: #964f8e;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.reading {
+    height: 930px;
+    background-image: url(Reading.jpg);
+    background-size: 100% 100%;
+}
+
+.reading p {
+    background-color: #667292;
+    color: #e0e2e4;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+table,
+td,
+th {
+    border-spacing: 3px;
+    border: 1px solid #7a3b2e;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+caption {
+    background: #e9dbd5;
+    color: #964f8e;
+    border: 2px solid #7a3b2e;
+}
+
+tr:nth-child(2n+1) {
+    background: #3B5998;
+    color: #DFE3EE;
+}
+
+tr:nth-child(2n) {
+    background: #DFE3EE;
+    color: #3B5998;
+}
+
+.anchor a:hover {
+    background-image: linear-gradient(#000000, #8d9db6, #000000);
+    color: #000000;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+footer {
+    background-image: url(Hobby.jpg);
+    padding: 15px;
+    background-size: 100%;
+    color: #e0e2e4;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer a {
+    background-image: linear-gradient(#e0e2e4, #667292, #e0e2e4);
+    color: #000000;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+footer a:hover {
+    background-image: linear-gradient(#000000, #8d9db6, #000000);
+    color: #000000;
+    border-radius: 3px;
 }
