@@ -148,7 +148,7 @@ tr:nth-child(2n) {
 }
 
 footer {
-    background-image: url(Hobby.jpg);
+    background-image: url(img/Hobby.jpg);
     padding: 15px;
     background-size: 100%;
     color: #e0e2e4;
@@ -202,7 +202,7 @@ footer a:hover {
     }
     .general {
       background-color: lightblue;
-      background-image: url(Hobby.jpg);
+      background-image: url(img/Hobby.jpg);
       background-size: cover;
     }
     .general p {
@@ -247,7 +247,7 @@ text-align: center;
   }
   .travelling {
     height: 600px;
-    background-image: url(Travelling.jpg);
+    background-image: url(img/Travelling.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -267,7 +267,7 @@ img {
 }
 .rock {
     height: 650px;
-    background-image: url(Rock.jpg);
+    background-image: url(img/Rock.jpg);
     background-size: cover;
 }
 
@@ -280,7 +280,7 @@ img {
 
 .reading {
     height: 930px;
-    background-image: url(Reading.jpg);
+    background-image: url(img/Reading.jpg);
     background-size: 100% 100%;
 }
 
@@ -291,7 +291,7 @@ img {
     font-family: 'Roboto Condensed', sans-serif;
 }
 footer {
-    background-image: url(Hobby.jpg);
+    background-image: url(img/Hobby.jpg);
     padding: 15px;
     background-size: 100%;
     color: #e0e2e4;
