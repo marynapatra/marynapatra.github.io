@@ -188,9 +188,11 @@ footer a:hover {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 12px;
     }
-    body img {
+    figure img {
         margin-left: 1px;
+        box-align: center;
         height: 135px;
+        border: #3B5998 solid 1px;
     }
     header {
         height: 40px;
