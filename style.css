@@ -179,18 +179,18 @@ footer a:hover {
     body {
         text-align: justify;
     }
-.general, .travelling, .rock, .reading{
-    height: 600px;
-}
-div p {
+    .general, .travelling, .rock, .reading {
+        height: 600px;
+    }
+    div p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 12px;
     }
     body img {
-margin-left: 5px;
-        height: 140px;
+        margin-left: 5px;
+        height: 135px;
     }
     header {
         height: 40px;
