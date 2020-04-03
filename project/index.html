@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <title>Project</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+
 </head>
+
 <body>
-    <select name="currency" id="currency">
-        <option value="USD">US Dollar</option>
-        <option value="EUR">Euro</option>
-        <option value="PLN">Polish Zloty</option>
-    </select>
-    <input type="date" name="sdate" id="sdate">
-    <input type="date" name="edate" id="edate">
-    <input type="button" value="Get" id="btnCalc">
-    <div id="result"></div>
+    <main class="main-info d-flex-lg fx-justify-center ">
+        <div class="container">
+            <form action="" method="get" id="chart-form" class="justify-space-around-lg align-items-end-lg">
+                <div class="input-chart-row">
+                    <label for="start">From:</label>
+                    <input type="date" class="chart-input" id="start-date" name="start">
+                </div>
+
+                <div class="input-chart-row">
+                    <label for="end">To:</label>
+                    <input type="date" class="chart-input" id="end-date" name="end">
+                </div>
+
+                <div class="input-chart-row">
+                    <label for="currency">Choose currency: </label>
+                    <select name="currency" id="currency" class="chart-input">
+                        <option value="usd">US Dollar</option>
+                        <option value="eur">Euro</option>
+                        <option value="pln">Polish Zloty</option>
+                    </select>
+                </div>
+                <button type="button" class="all-button" id="chart-button"> Submit </button>
+            </form>
+
+        </div>
+    </main>
+
+    <div class="container-for-chart">
+    </div>
+
     <script src="main.js"></script>
+
 </body>
+
 </html>

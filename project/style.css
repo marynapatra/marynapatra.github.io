@@ -1,6 +1,152 @@
-#result {
-    width: 1200px;
-    height: 800px;
-    border: 1px solid #000;
-    margin: 0 auto;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
 }
+
+.fx-justify-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.d-none {
+    display: none;
+}
+
+.all-button {
+    border: 2px solid #83d0f2;
+    padding: 0.4rem 1.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+.align-self-center{
+    align-self: center;
+}
+
+[type="date"] {
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.chart-input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+
+#chart-form {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+
+}
+
+.input-chart-row {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0.8rem;
+}
+
+.input-chart-row>label {
+    font-size: 1.2rem;
+    margin: 0.2rem 0;
+
+}
+
+#chart-button {
+    margin: 0.7rem;
+    background-color: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#chart-button:hover {
+    background-color: #83d0f2;
+    transition: background-color 1s;
+}
+
+.container-for-chart{
+    min-width: 310px;
+    height: 400px;
+}
+#container-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 310px;
+    min-height: 400px;
+}
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 16px solid #00e0ae;
+    border-top: 16px solid #5b408c;
+    animation: spin 1s infinite;
+    display: flex;
+}
+.error-message{
+    display: flex;
+    color: darkslategrey;
+    font-size: 2rem;
+    max-width: 320px;
+    text-align: center;
+}
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+    .fx-order-2-lg {
+        order: 2;
+    }
+
+    .d-flex-lg {
+        display: flex;
+    }
+
+    .justify-space-around-lg{
+        justify-content: space-around;
+    }
+
+    .align-items-end-lg {
+        align-items: flex-end;
+    }
+
+    .container {
+        max-width: 1120px;
+    }
+
+    #chart-form {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #chart-button {
+        height: 40px;
+    }
