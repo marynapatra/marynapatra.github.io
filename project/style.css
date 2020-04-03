@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'EB Garamond', serif;
 }
+body{
+    background-image: linear-gradient(to right,#deeaee , #92a8d1);
+}
+
 
 .fx-justify-center {
     justify-content: center;
@@ -76,8 +80,8 @@
 
 #chart-button {
     margin: 0.7rem;
-    background-color: transparent;
-    color: black;
+    background-color: #034f84;
+    color: white;
     font-size: 1.2rem;
 }
 
@@ -101,8 +105,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 16px solid #00e0ae;
-    border-top: 16px solid #5b408c;
+    border: 16px solid #c83349;
+    border-top: 16px solid #622569;
     animation: spin 1s infinite;
     display: flex;
 }
